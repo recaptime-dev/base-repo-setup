@@ -1,0 +1,9 @@
+{
+  "yaml.schemas": {
+      "https://www.schemastore.org/github-issue-config.json": ".github/ISSUE_TEMPLATE/config.yml"
+  },
+  "git.alwaysSignOff": true,
+  "editor.insertSpaces": true,
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2
+}

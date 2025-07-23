@@ -1,0 +1,7 @@
+blank_issues_enabled: true
+contact_links:
+# Comment this out if you don't use GitLab for issue tracking.
+# Otherwise, update the URL to your GitLab project.
+  - name: This project is moved to GitLab
+    url: https://gitlab.com/recaptime-dev/templates/base-repo/-/issues
+    about: We use GitLab for issue tracking. Please report issues there.

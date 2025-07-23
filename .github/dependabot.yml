@@ -1,0 +1,20 @@
+# This is a barebones Dependabot configuration file for GitHub Actions. If you need Dependabot to manage other package
+# ecosystems, you can add them to this file. For more information, see the following GitHub Docs articles:
+# - https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates
+# - https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/customizing-dependabot-security-prs
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - directory: /
+    package-ecosystem: github-actions
+    schedule:
+      cronjob: "30 0 * * 2"
+      timezone: "Etc/UTC"
+      interval: cron
+    commit-message:
+      include: scope
+      prefix: "chore(github-actions)"
+    labels:
+      - dependencies
+      - ci/github-actions
+      - automations/dependabot
