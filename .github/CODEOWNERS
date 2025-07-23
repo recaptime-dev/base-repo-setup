@@ -1,0 +1,8 @@
+# This is the CODEOWNERS file for Recap Time Squad projects on GitHub.
+# It defines the users and teams responsible for code review and maintenance of the project,
+# as well as who will get automatically requested for reviews in regular merge requests and
+# assigned in Dependabot merge requests.
+#
+# As a community maintainer or team member, you may manage them here subject to the regular
+# access requests flow (https://wiki.recaptime.dev/handbook/access-requests).
+* @recaptime-dev/squad @recaptime-dev/community-maintainers
