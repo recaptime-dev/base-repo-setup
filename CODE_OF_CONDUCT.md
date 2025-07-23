@@ -3,7 +3,7 @@
 This project adheres to [the **RecapTime.dev Community Code of Conduct**](https://policies.recaptime.dev/community/code-of-conduct)
 (based on the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html)), alongside the
 [**Hack Club Code of Conduct**](https://hackclub.com/conduct) in making our community spaces more inclusive and civil. Please review
-them before you participate, and don't hesitate to reach out to TBD.
+them before you participate, and don't hesitate to reach out to the maintainers below.
 
 ## Reporting abusive behavior
 
@@ -15,4 +15,15 @@ You can report abusive behavior to one of the project maintainers privately:
 | --- | --- | --- |
 | @your-username-here | user@host.tld | ... |
 
-Alternatively, you can email `conduct@recaptime.dev`
+Alternatively, you can email `conduct@recaptime.dev` (which is monitored by
+both Recap Time Squad and community maintainers as [Support Desk] tickets in
+GitLab) to report abusive behavior.
+
+## Questions?
+
+See [the appendicies on edge cases and FAQs][appendix], as well as
+[community and platform-specific guidelines][platform-guidelines] for more information.
+
+[appendix]: https://policies.recaptime.dev/community/code-of-conduct/appendix
+[platform-guidelines]: https://policies.recaptime.dev/community/code-of-conduct/platform-specifics
+[Support Desk]: https://gitlab.com/recaptime-dev/internal/moderation
