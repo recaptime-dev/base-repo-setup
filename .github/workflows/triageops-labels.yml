@@ -11,6 +11,13 @@ on:
     paths:
       - '.github/labels.yml'
       - '.github/workflows/triageops-labels.yml'
+  workflow_dispatch: 
+    inputs:
+      dry-run:
+        description: 'Run in dry-run mode'
+        required: false
+        default: true
+        type: boolean
 
 jobs:
   labeler:
@@ -26,7 +33,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           yaml-file: .github/labels.yml
-          dry-run: ${{ github.event_name == 'pull_request' }}
+          dry-run: ${{ inputs.dry-run == 'true' || github.event_name == 'pull_request'}}
           exclude: |
             help*
             *issue
