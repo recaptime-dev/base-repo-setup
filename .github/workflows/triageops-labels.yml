@@ -33,7 +33,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           yaml-file: .github/labels.yml
-          dry-run: ${{ inputs.dry-run == 'true' || github.event_name == 'pull_request'}}
+          dry-run: ${{ inputs.dry-run == 'true' || github.event_name == 'pull_request' }}
           exclude: |
             help*
             *issue
