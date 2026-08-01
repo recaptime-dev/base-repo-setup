@@ -1,3 +1,10 @@
+# SPDX-License-Identifier: MPL-2.0
+#
+# Contents of this file are sourced from https://github.com/recaptime-dev/base-repo-setup/blob/main/.github/labels.yml
+# DO NOT DIRECTLY EDIT THIS FILE IF OUTSIDE THE META REPOSITORY OR BASE-REPO-SETUP
+# REPOSITORY TEMPLATE! Instead, submit patches against the repo itself OR in the
+# org community health repo (.github) instead.
+#
 # This YAML is used to declaratively manage GitHub issue labels with @crazy-max's
 # issue labels management GitHub Action (https://github.com/crazy-max/ghaction-github-labeler).
 # We recommend synchorizing your copy of this file alongside the companion GH Actions
